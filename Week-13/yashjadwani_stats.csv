@@ -1,0 +1,12 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC Score,Time taken (seconds),Correct Lables Predicted (7418)
+Logistic Regression,0.84,0.33,0.77,0.47,0.8,43.247809171676636,6204
+Random Tree Classifier,0.93,0.6,0.63,0.62,0.8,47.53894090652466,6873
+Decision Tree,0.9,0.48,0.53,0.5,0.73,2.2279293537139893,6691
+Xg Boost,0.93,0.6,0.62,0.61,0.79,19.520048141479492,6874
+K Nearest Neighbors,0.83,0.32,0.7,0.44,0.78,6.273578405380249,6191
+Gradient Boosting,0.9,0.47,0.79,0.59,0.85,73.23355197906494,6668
+Voting Classifier(Hard),0.93,0.6,0.61,0.61,0.78,39.49149227142334,6872
+Voting Classifier(Soft),0.92,0.56,0.58,0.57,0.77,35.904542684555054,6815
+Xg Boost(Best),0.93,0.6,0.58,0.59,0.77,142.4955699443817,6864
+Voting Classifier(Hard) Best XGB,0.93,0.6,0.59,0.6,0.78,258.6799385547638,6866
+Voting Classifier(Soft) Best XGB,0.92,0.58,0.58,0.58,0.77,305.09449911117554,6837
